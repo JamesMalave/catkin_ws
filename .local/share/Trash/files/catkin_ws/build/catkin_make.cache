@@ -1,0 +1,2 @@
+abb_experimental/abb_experimental:abb_experimental/abb_irb1200_gazebo:abb_experimental/abb_irb120_gazebo:abb_experimental/abb_irb4600_support:industrial_core/industrial_core:industrial_core/industrial_msgs:industrial_core/industrial_robot_simulator:industrial_core/industrial_trajectory_filters:industrial_core/industrial_utils:industrial_core/simple_message
+-DCATKIN_DEVEL_PREFIX=/home/jamesmalave/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jamesmalave/catkin_ws/install -G Unix Makefiles

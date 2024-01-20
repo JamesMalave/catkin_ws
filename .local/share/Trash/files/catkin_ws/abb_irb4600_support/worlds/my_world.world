@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="my_world">
+    <!-- Incluir el modelo del robot ABB IRB 4600 -->
+    <include>
+      <uri>model://abb_irb4600_support</uri>
+    </include>
+
+    <!-- Incluir el modelo del gripper de soldadura -->
+    <include>

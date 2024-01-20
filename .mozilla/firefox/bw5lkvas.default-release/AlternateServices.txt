@@ -1,0 +1,2 @@
+https:push.services.mozilla.com:443:.::3	0	19742	https:push.services.mozilla.com:443:push.services.mozilla.com:443::n:1708378307:h3:y:1705786275:n::|n:y:
+https:accounts.firefox.com:443:.::3	0	19742	https:accounts.firefox.com:443:accounts.firefox.com:443::n:1708378288:h3:y:1705786275:n::|n:y:
