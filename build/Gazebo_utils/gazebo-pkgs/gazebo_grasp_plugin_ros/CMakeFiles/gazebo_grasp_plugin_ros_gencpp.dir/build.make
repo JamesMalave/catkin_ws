@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jamesmalave/Downloads/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/jamesmalave/ABB4600/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jamesmalave/Downloads/catkin_ws/build
+CMAKE_BINARY_DIR = /home/jamesmalave/ABB4600/catkin_ws/build
 
 # Utility rule file for gazebo_grasp_plugin_ros_gencpp.
 
@@ -63,10 +63,10 @@ Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/CMakeFiles/gazebo_grasp_plugin_
 .PHONY : Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/CMakeFiles/gazebo_grasp_plugin_ros_gencpp.dir/build
 
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/CMakeFiles/gazebo_grasp_plugin_ros_gencpp.dir/clean:
-	cd /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_grasp_plugin_ros_gencpp.dir/cmake_clean.cmake
+	cd /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_grasp_plugin_ros_gencpp.dir/cmake_clean.cmake
 .PHONY : Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/CMakeFiles/gazebo_grasp_plugin_ros_gencpp.dir/clean
 
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/CMakeFiles/gazebo_grasp_plugin_ros_gencpp.dir/depend:
-	cd /home/jamesmalave/Downloads/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jamesmalave/Downloads/catkin_ws/src /home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros /home/jamesmalave/Downloads/catkin_ws/build /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/CMakeFiles/gazebo_grasp_plugin_ros_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jamesmalave/ABB4600/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jamesmalave/ABB4600/catkin_ws/src /home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros /home/jamesmalave/ABB4600/catkin_ws/build /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/CMakeFiles/gazebo_grasp_plugin_ros_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/CMakeFiles/gazebo_grasp_plugin_ros_gencpp.dir/depend
 

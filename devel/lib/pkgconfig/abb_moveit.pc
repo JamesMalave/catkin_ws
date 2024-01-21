@@ -1,4 +1,4 @@
-prefix=/home/jamesmalave/Downloads/catkin_ws/devel
+prefix=/home/jamesmalave/ABB4600/catkin_ws/devel
 
 Name: abb_moveit
 Description: Description of abb_moveit

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jamesmalave/Downloads/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/jamesmalave/ABB4600/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jamesmalave/Downloads/catkin_ws/build
+CMAKE_BINARY_DIR = /home/jamesmalave/ABB4600/catkin_ws/build
 
 # Utility rule file for clean_test_results_abb_description.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/jamesmalave/Downloads/catkin_ws/build
 include abb4600/abb_description/CMakeFiles/clean_test_results_abb_description.dir/progress.make
 
 abb4600/abb_description/CMakeFiles/clean_test_results_abb_description:
-	cd /home/jamesmalave/Downloads/catkin_ws/build/abb4600/abb_description && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/jamesmalave/Downloads/catkin_ws/build/test_results/abb_description
+	cd /home/jamesmalave/ABB4600/catkin_ws/build/abb4600/abb_description && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/jamesmalave/ABB4600/catkin_ws/build/test_results/abb_description
 
 clean_test_results_abb_description: abb4600/abb_description/CMakeFiles/clean_test_results_abb_description
 clean_test_results_abb_description: abb4600/abb_description/CMakeFiles/clean_test_results_abb_description.dir/build.make
@@ -67,10 +67,10 @@ abb4600/abb_description/CMakeFiles/clean_test_results_abb_description.dir/build:
 .PHONY : abb4600/abb_description/CMakeFiles/clean_test_results_abb_description.dir/build
 
 abb4600/abb_description/CMakeFiles/clean_test_results_abb_description.dir/clean:
-	cd /home/jamesmalave/Downloads/catkin_ws/build/abb4600/abb_description && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_abb_description.dir/cmake_clean.cmake
+	cd /home/jamesmalave/ABB4600/catkin_ws/build/abb4600/abb_description && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_abb_description.dir/cmake_clean.cmake
 .PHONY : abb4600/abb_description/CMakeFiles/clean_test_results_abb_description.dir/clean
 
 abb4600/abb_description/CMakeFiles/clean_test_results_abb_description.dir/depend:
-	cd /home/jamesmalave/Downloads/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jamesmalave/Downloads/catkin_ws/src /home/jamesmalave/Downloads/catkin_ws/src/abb4600/abb_description /home/jamesmalave/Downloads/catkin_ws/build /home/jamesmalave/Downloads/catkin_ws/build/abb4600/abb_description /home/jamesmalave/Downloads/catkin_ws/build/abb4600/abb_description/CMakeFiles/clean_test_results_abb_description.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jamesmalave/ABB4600/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jamesmalave/ABB4600/catkin_ws/src /home/jamesmalave/ABB4600/catkin_ws/src/abb4600/abb_description /home/jamesmalave/ABB4600/catkin_ws/build /home/jamesmalave/ABB4600/catkin_ws/build/abb4600/abb_description /home/jamesmalave/ABB4600/catkin_ws/build/abb4600/abb_description/CMakeFiles/clean_test_results_abb_description.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : abb4600/abb_description/CMakeFiles/clean_test_results_abb_description.dir/depend
 

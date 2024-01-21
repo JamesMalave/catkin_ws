@@ -1,8 +1,8 @@
-prefix=/home/jamesmalave/Downloads/catkin_ws/devel
+prefix=/home/jamesmalave/ABB4600/catkin_ws/devel
 
 Name: gazebo_world_plugin_loader
 Description: Description of gazebo_world_plugin_loader
 Version: 1.0.2
-Cflags: -I/home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_world_plugin_loader/include
+Cflags: -I/home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_world_plugin_loader/include
 Libs: -L${prefix}/lib -lgazebo_world_plugin_loader
 Requires: roscpp gazebo_ros gazebo_ros

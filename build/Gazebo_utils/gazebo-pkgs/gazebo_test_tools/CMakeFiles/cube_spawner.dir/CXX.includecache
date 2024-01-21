@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_test_tools/include/gazebo_test_tools/gazebo_cube_spawner.h
+/home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_test_tools/include/gazebo_test_tools/gazebo_cube_spawner.h
 ros/ros.h
 -
 
-/home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_test_tools/src/cube_spawner_node.cpp
+/home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_test_tools/src/cube_spawner_node.cpp
 gazebo_test_tools/gazebo_cube_spawner.h
 -
 

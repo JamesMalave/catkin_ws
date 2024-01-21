@@ -1,8 +1,8 @@
-# Install script for directory: /home/jamesmalave/Downloads/catkin_ws/src/abb4600/abb_gazebo
+# Install script for directory: /home/jamesmalave/ABB4600/catkin_ws/src/abb4600/abb_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/Downloads/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/ABB4600/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/build/abb4600/abb_gazebo/catkin_generated/installspace/abb_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/build/abb4600/abb_gazebo/catkin_generated/installspace/abb_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gazebo/cmake" TYPE FILE FILES
-    "/home/jamesmalave/Downloads/catkin_ws/build/abb4600/abb_gazebo/catkin_generated/installspace/abb_gazeboConfig.cmake"
-    "/home/jamesmalave/Downloads/catkin_ws/build/abb4600/abb_gazebo/catkin_generated/installspace/abb_gazeboConfig-version.cmake"
+    "/home/jamesmalave/ABB4600/catkin_ws/build/abb4600/abb_gazebo/catkin_generated/installspace/abb_gazeboConfig.cmake"
+    "/home/jamesmalave/ABB4600/catkin_ws/build/abb4600/abb_gazebo/catkin_generated/installspace/abb_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gazebo" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/src/abb4600/abb_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gazebo" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/src/abb4600/abb_gazebo/package.xml")
 endif()
 

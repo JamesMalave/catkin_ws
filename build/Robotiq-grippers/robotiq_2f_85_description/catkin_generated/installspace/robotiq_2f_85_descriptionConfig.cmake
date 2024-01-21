@@ -67,14 +67,14 @@ set(robotiq_2f_85_description_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(robotiq_2f_85_description_SOURCE_PREFIX /home/jamesmalave/Downloads/catkin_ws/src/Robotiq-grippers/robotiq_2f_85_description)
-  set(robotiq_2f_85_description_DEVEL_PREFIX /home/jamesmalave/Downloads/catkin_ws/devel)
+  set(robotiq_2f_85_description_SOURCE_PREFIX /home/jamesmalave/ABB4600/catkin_ws/src/Robotiq-grippers/robotiq_2f_85_description)
+  set(robotiq_2f_85_description_DEVEL_PREFIX /home/jamesmalave/ABB4600/catkin_ws/devel)
   set(robotiq_2f_85_description_INSTALL_PREFIX "")
   set(robotiq_2f_85_description_PREFIX ${robotiq_2f_85_description_DEVEL_PREFIX})
 else()
   set(robotiq_2f_85_description_SOURCE_PREFIX "")
   set(robotiq_2f_85_description_DEVEL_PREFIX "")
-  set(robotiq_2f_85_description_INSTALL_PREFIX /home/jamesmalave/Downloads/catkin_ws/install)
+  set(robotiq_2f_85_description_INSTALL_PREFIX /home/jamesmalave/ABB4600/catkin_ws/install)
   set(robotiq_2f_85_description_PREFIX ${robotiq_2f_85_description_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jamesmalave/Downloads/catkin_ws/install/lib;/home/jamesmalave/Downloads/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/jamesmalave/ABB4600/catkin_ws/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

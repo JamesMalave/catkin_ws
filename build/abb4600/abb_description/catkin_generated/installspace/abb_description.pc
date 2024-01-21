@@ -1,4 +1,4 @@
-prefix=/home/jamesmalave/Downloads/catkin_ws/install
+prefix=/home/jamesmalave/ABB4600/catkin_ws/install
 
 Name: abb_description
 Description: Description of abb_description

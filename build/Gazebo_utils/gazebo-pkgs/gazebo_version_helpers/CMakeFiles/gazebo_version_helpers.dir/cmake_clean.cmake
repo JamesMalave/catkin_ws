@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gazebo_version_helpers.dir/src/GazeboVersionHelpers.cpp.o"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_version_helpers.pdb"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_version_helpers.so"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_version_helpers.pdb"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_version_helpers.so"
 )
 
 # Per-language clean rules from dependency scanning.

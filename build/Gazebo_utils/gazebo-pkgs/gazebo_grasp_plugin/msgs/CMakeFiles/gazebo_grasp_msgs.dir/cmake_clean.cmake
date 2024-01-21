@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "grasp_event.pb.cc"
   "grasp_event.pb.h"
   "CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.o"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_grasp_msgs.pdb"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_grasp_msgs.so"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_grasp_msgs.pdb"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_grasp_msgs.so"
 )
 
 # Per-language clean rules from dependency scanning.

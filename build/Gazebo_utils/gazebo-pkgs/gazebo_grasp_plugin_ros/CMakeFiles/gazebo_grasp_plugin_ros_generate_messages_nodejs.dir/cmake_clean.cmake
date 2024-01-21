@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gazebo_grasp_plugin_ros_generate_messages_nodejs"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/share/gennodejs/ros/gazebo_grasp_plugin_ros/msg/GazeboGraspEvent.js"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/share/gennodejs/ros/gazebo_grasp_plugin_ros/msg/GazeboGraspEvent.js"
 )
 
 # Per-language clean rules from dependency scanning.

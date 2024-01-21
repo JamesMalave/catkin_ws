@@ -1,8 +1,0 @@
-prefix=/home/jamesmalave/Downloads/catkin_ws/devel
-
-Name: abb_crb15000_support
-Description: Description of abb_crb15000_support
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gazebo_grasp_plugin_ros_generate_messages_lisp"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/share/common-lisp/ros/gazebo_grasp_plugin_ros/msg/GazeboGraspEvent.lisp"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/share/common-lisp/ros/gazebo_grasp_plugin_ros/msg/GazeboGraspEvent.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

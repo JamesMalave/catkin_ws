@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgripper_action_controller.pdb"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgripper_action_controller.so"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgripper_action_controller.pdb"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgripper_action_controller.so"
 )
 
 # Per-language clean rules from dependency scanning.

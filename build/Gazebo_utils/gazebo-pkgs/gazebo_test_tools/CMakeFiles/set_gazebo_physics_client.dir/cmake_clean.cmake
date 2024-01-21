@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/set_gazebo_physics_client.dir/src/SetGazeboPhysicsClient.cpp.o"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/gazebo_test_tools/set_gazebo_physics_client.pdb"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/gazebo_test_tools/set_gazebo_physics_client"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/gazebo_test_tools/set_gazebo_physics_client.pdb"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/gazebo_test_tools/set_gazebo_physics_client"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fake_object_recognizer.dir/src/FakeObjectRecognizer.cpp.o"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libfake_object_recognizer.pdb"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libfake_object_recognizer.so"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libfake_object_recognizer.pdb"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libfake_object_recognizer.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jamesmalave/Downloads/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/jamesmalave/ABB4600/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jamesmalave/Downloads/catkin_ws/build
+CMAKE_BINARY_DIR = /home/jamesmalave/ABB4600/catkin_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ Robotiq-grippers/conveyor_gripper_description/CMakeFiles/rosgraph_msgs_generate_
 .PHONY : Robotiq-grippers/conveyor_gripper_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 
 Robotiq-grippers/conveyor_gripper_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/jamesmalave/Downloads/catkin_ws/build/Robotiq-grippers/conveyor_gripper_description && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/jamesmalave/ABB4600/catkin_ws/build/Robotiq-grippers/conveyor_gripper_description && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : Robotiq-grippers/conveyor_gripper_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 Robotiq-grippers/conveyor_gripper_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/jamesmalave/Downloads/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jamesmalave/Downloads/catkin_ws/src /home/jamesmalave/Downloads/catkin_ws/src/Robotiq-grippers/conveyor_gripper_description /home/jamesmalave/Downloads/catkin_ws/build /home/jamesmalave/Downloads/catkin_ws/build/Robotiq-grippers/conveyor_gripper_description /home/jamesmalave/Downloads/catkin_ws/build/Robotiq-grippers/conveyor_gripper_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jamesmalave/ABB4600/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jamesmalave/ABB4600/catkin_ws/src /home/jamesmalave/ABB4600/catkin_ws/src/Robotiq-grippers/conveyor_gripper_description /home/jamesmalave/ABB4600/catkin_ws/build /home/jamesmalave/ABB4600/catkin_ws/build/Robotiq-grippers/conveyor_gripper_description /home/jamesmalave/ABB4600/catkin_ws/build/Robotiq-grippers/conveyor_gripper_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Robotiq-grippers/conveyor_gripper_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 

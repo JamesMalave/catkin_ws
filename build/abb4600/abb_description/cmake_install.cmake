@@ -1,8 +1,8 @@
-# Install script for directory: /home/jamesmalave/Downloads/catkin_ws/src/abb4600/abb_description
+# Install script for directory: /home/jamesmalave/ABB4600/catkin_ws/src/abb4600/abb_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/Downloads/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/ABB4600/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/build/abb4600/abb_description/catkin_generated/installspace/abb_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/build/abb4600/abb_description/catkin_generated/installspace/abb_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_description/cmake" TYPE FILE FILES
-    "/home/jamesmalave/Downloads/catkin_ws/build/abb4600/abb_description/catkin_generated/installspace/abb_descriptionConfig.cmake"
-    "/home/jamesmalave/Downloads/catkin_ws/build/abb4600/abb_description/catkin_generated/installspace/abb_descriptionConfig-version.cmake"
+    "/home/jamesmalave/ABB4600/catkin_ws/build/abb4600/abb_description/catkin_generated/installspace/abb_descriptionConfig.cmake"
+    "/home/jamesmalave/ABB4600/catkin_ws/build/abb4600/abb_description/catkin_generated/installspace/abb_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_description" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/src/abb4600/abb_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_description" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/src/abb4600/abb_description/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_description" TYPE DIRECTORY FILES
-    "/home/jamesmalave/Downloads/catkin_ws/src/abb4600/abb_description/config"
-    "/home/jamesmalave/Downloads/catkin_ws/src/abb4600/abb_description/launch"
-    "/home/jamesmalave/Downloads/catkin_ws/src/abb4600/abb_description/meshes"
-    "/home/jamesmalave/Downloads/catkin_ws/src/abb4600/abb_description/urdf"
+    "/home/jamesmalave/ABB4600/catkin_ws/src/abb4600/abb_description/config"
+    "/home/jamesmalave/ABB4600/catkin_ws/src/abb4600/abb_description/launch"
+    "/home/jamesmalave/ABB4600/catkin_ws/src/abb4600/abb_description/meshes"
+    "/home/jamesmalave/ABB4600/catkin_ws/src/abb4600/abb_description/urdf"
     )
 endif()
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/jamesmalave/Downloads/catkin_ws/src/abb_experimental/abb_experimental
+# Install script for directory: /home/jamesmalave/ABB4600/catkin_ws/src/abb_experimental/abb_experimental
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/Downloads/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/ABB4600/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_experimental" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/src/abb_experimental/abb_experimental/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_experimental" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/src/abb_experimental/abb_experimental/package.xml")
 endif()
 

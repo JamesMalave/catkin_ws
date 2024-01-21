@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gazebo_test_tools.dir/src/cube_spawner.cpp.o"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_test_tools.pdb"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_test_tools.so"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_test_tools.pdb"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_test_tools.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fake_object_recognizer_cmd.dir/test/fake_object_recognizer_cmd.cpp.o"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/gazebo_test_tools/fake_object_recognizer_cmd.pdb"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/gazebo_test_tools/fake_object_recognizer_cmd"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/gazebo_test_tools/fake_object_recognizer_cmd.pdb"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/gazebo_test_tools/fake_object_recognizer_cmd"
 )
 
 # Per-language clean rules from dependency scanning.

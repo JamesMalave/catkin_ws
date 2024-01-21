@@ -1,8 +1,8 @@
-# Install script for directory: /home/jamesmalave/Downloads/catkin_ws/src/abb/abb_irb5400_support
+# Install script for directory: /home/jamesmalave/ABB4600/catkin_ws/src/abb/abb_irb5400_support
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/Downloads/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/ABB4600/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/build/abb/abb_irb5400_support/catkin_generated/installspace/abb_irb5400_support.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/build/abb/abb_irb5400_support/catkin_generated/installspace/abb_irb5400_support.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb5400_support/cmake" TYPE FILE FILES
-    "/home/jamesmalave/Downloads/catkin_ws/build/abb/abb_irb5400_support/catkin_generated/installspace/abb_irb5400_supportConfig.cmake"
-    "/home/jamesmalave/Downloads/catkin_ws/build/abb/abb_irb5400_support/catkin_generated/installspace/abb_irb5400_supportConfig-version.cmake"
+    "/home/jamesmalave/ABB4600/catkin_ws/build/abb/abb_irb5400_support/catkin_generated/installspace/abb_irb5400_supportConfig.cmake"
+    "/home/jamesmalave/ABB4600/catkin_ws/build/abb/abb_irb5400_support/catkin_generated/installspace/abb_irb5400_supportConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb5400_support" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/src/abb/abb_irb5400_support/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb5400_support" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/src/abb/abb_irb5400_support/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb5400_support/config" TYPE DIRECTORY FILES "/home/jamesmalave/Downloads/catkin_ws/src/abb/abb_irb5400_support/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb5400_support/config" TYPE DIRECTORY FILES "/home/jamesmalave/ABB4600/catkin_ws/src/abb/abb_irb5400_support/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb5400_support/launch" TYPE DIRECTORY FILES "/home/jamesmalave/Downloads/catkin_ws/src/abb/abb_irb5400_support/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb5400_support/launch" TYPE DIRECTORY FILES "/home/jamesmalave/ABB4600/catkin_ws/src/abb/abb_irb5400_support/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb5400_support/meshes" TYPE DIRECTORY FILES "/home/jamesmalave/Downloads/catkin_ws/src/abb/abb_irb5400_support/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb5400_support/meshes" TYPE DIRECTORY FILES "/home/jamesmalave/ABB4600/catkin_ws/src/abb/abb_irb5400_support/meshes/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb5400_support/urdf" TYPE DIRECTORY FILES "/home/jamesmalave/Downloads/catkin_ws/src/abb/abb_irb5400_support/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb5400_support/urdf" TYPE DIRECTORY FILES "/home/jamesmalave/ABB4600/catkin_ws/src/abb/abb_irb5400_support/urdf/")
 endif()
 

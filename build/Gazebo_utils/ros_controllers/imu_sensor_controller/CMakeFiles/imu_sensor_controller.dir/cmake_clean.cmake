@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/imu_sensor_controller.dir/src/imu_sensor_controller.cpp.o"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libimu_sensor_controller.pdb"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libimu_sensor_controller.so"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libimu_sensor_controller.pdb"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libimu_sensor_controller.so"
 )
 
 # Per-language clean rules from dependency scanning.

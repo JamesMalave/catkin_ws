@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cube_spawner.dir/src/cube_spawner_node.cpp.o"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/gazebo_test_tools/cube_spawner.pdb"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/gazebo_test_tools/cube_spawner"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/gazebo_test_tools/cube_spawner.pdb"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/gazebo_test_tools/cube_spawner"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gazebo_grasp_plugin_ros_republisher_node.dir/src/grasp_event_republisher.cpp.o"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/gazebo_grasp_plugin_ros/grasp_event_republisher.pdb"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/gazebo_grasp_plugin_ros/grasp_event_republisher"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/gazebo_grasp_plugin_ros/grasp_event_republisher.pdb"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/gazebo_grasp_plugin_ros/grasp_event_republisher"
 )
 
 # Per-language clean rules from dependency scanning.

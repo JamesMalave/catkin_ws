@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jamesmalave/Downloads/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/jamesmalave/ABB4600/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jamesmalave/Downloads/catkin_ws/build
+CMAKE_BINARY_DIR = /home/jamesmalave/ABB4600/catkin_ws/build
 
 # Utility rule file for path_navigation_msgs_gennodejs.
 
@@ -63,10 +63,10 @@ Gazebo_utils/general-message-pkgs/path_navigation_msgs/CMakeFiles/path_navigatio
 .PHONY : Gazebo_utils/general-message-pkgs/path_navigation_msgs/CMakeFiles/path_navigation_msgs_gennodejs.dir/build
 
 Gazebo_utils/general-message-pkgs/path_navigation_msgs/CMakeFiles/path_navigation_msgs_gennodejs.dir/clean:
-	cd /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/general-message-pkgs/path_navigation_msgs && $(CMAKE_COMMAND) -P CMakeFiles/path_navigation_msgs_gennodejs.dir/cmake_clean.cmake
+	cd /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/general-message-pkgs/path_navigation_msgs && $(CMAKE_COMMAND) -P CMakeFiles/path_navigation_msgs_gennodejs.dir/cmake_clean.cmake
 .PHONY : Gazebo_utils/general-message-pkgs/path_navigation_msgs/CMakeFiles/path_navigation_msgs_gennodejs.dir/clean
 
 Gazebo_utils/general-message-pkgs/path_navigation_msgs/CMakeFiles/path_navigation_msgs_gennodejs.dir/depend:
-	cd /home/jamesmalave/Downloads/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jamesmalave/Downloads/catkin_ws/src /home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/general-message-pkgs/path_navigation_msgs /home/jamesmalave/Downloads/catkin_ws/build /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/general-message-pkgs/path_navigation_msgs /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/general-message-pkgs/path_navigation_msgs/CMakeFiles/path_navigation_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jamesmalave/ABB4600/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jamesmalave/ABB4600/catkin_ws/src /home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/general-message-pkgs/path_navigation_msgs /home/jamesmalave/ABB4600/catkin_ws/build /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/general-message-pkgs/path_navigation_msgs /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/general-message-pkgs/path_navigation_msgs/CMakeFiles/path_navigation_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Gazebo_utils/general-message-pkgs/path_navigation_msgs/CMakeFiles/path_navigation_msgs_gennodejs.dir/depend
 

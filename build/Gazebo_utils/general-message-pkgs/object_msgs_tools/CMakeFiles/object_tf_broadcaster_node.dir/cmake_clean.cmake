@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/object_tf_broadcaster_node.dir/src/object_tf_broadcaster_node.cpp.o"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/object_msgs_tools/object_tf_broadcaster_node.pdb"
-  "/home/jamesmalave/Downloads/catkin_ws/devel/lib/object_msgs_tools/object_tf_broadcaster_node"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/object_msgs_tools/object_tf_broadcaster_node.pdb"
+  "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/object_msgs_tools/object_tf_broadcaster_node"
 )
 
 # Per-language clean rules from dependency scanning.

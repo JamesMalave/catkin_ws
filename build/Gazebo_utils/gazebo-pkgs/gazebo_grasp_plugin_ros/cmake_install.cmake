@@ -1,8 +1,8 @@
-# Install script for directory: /home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros
+# Install script for directory: /home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/Downloads/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/ABB4600/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,54 +38,54 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin_ros/msg" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/msg/GazeboGraspEvent.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin_ros/msg" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/msg/GazeboGraspEvent.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin_ros/cmake" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/catkin_generated/installspace/gazebo_grasp_plugin_ros-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin_ros/cmake" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/catkin_generated/installspace/gazebo_grasp_plugin_ros-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jamesmalave/Downloads/catkin_ws/devel/include/gazebo_grasp_plugin_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jamesmalave/ABB4600/catkin_ws/devel/include/gazebo_grasp_plugin_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/jamesmalave/Downloads/catkin_ws/devel/share/roseus/ros/gazebo_grasp_plugin_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/jamesmalave/ABB4600/catkin_ws/devel/share/roseus/ros/gazebo_grasp_plugin_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/jamesmalave/Downloads/catkin_ws/devel/share/common-lisp/ros/gazebo_grasp_plugin_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/jamesmalave/ABB4600/catkin_ws/devel/share/common-lisp/ros/gazebo_grasp_plugin_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/jamesmalave/Downloads/catkin_ws/devel/share/gennodejs/ros/gazebo_grasp_plugin_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/jamesmalave/ABB4600/catkin_ws/devel/share/gennodejs/ros/gazebo_grasp_plugin_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/jamesmalave/Downloads/catkin_ws/devel/lib/python2.7/dist-packages/gazebo_grasp_plugin_ros")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/python2.7/dist-packages/gazebo_grasp_plugin_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/jamesmalave/Downloads/catkin_ws/devel/lib/python2.7/dist-packages/gazebo_grasp_plugin_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/python2.7/dist-packages/gazebo_grasp_plugin_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/catkin_generated/installspace/gazebo_grasp_plugin_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/catkin_generated/installspace/gazebo_grasp_plugin_ros.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin_ros/cmake" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/catkin_generated/installspace/gazebo_grasp_plugin_ros-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin_ros/cmake" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/catkin_generated/installspace/gazebo_grasp_plugin_ros-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin_ros/cmake" TYPE FILE FILES
-    "/home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/catkin_generated/installspace/gazebo_grasp_plugin_rosConfig.cmake"
-    "/home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/catkin_generated/installspace/gazebo_grasp_plugin_rosConfig-version.cmake"
+    "/home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/catkin_generated/installspace/gazebo_grasp_plugin_rosConfig.cmake"
+    "/home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/catkin_generated/installspace/gazebo_grasp_plugin_rosConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin_ros" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin_ros" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -95,12 +95,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gazebo_grasp_plugin_ros/grasp_event_republisher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gazebo_grasp_plugin_ros" TYPE EXECUTABLE FILES "/home/jamesmalave/Downloads/catkin_ws/devel/lib/gazebo_grasp_plugin_ros/grasp_event_republisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gazebo_grasp_plugin_ros" TYPE EXECUTABLE FILES "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/gazebo_grasp_plugin_ros/grasp_event_republisher")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gazebo_grasp_plugin_ros/grasp_event_republisher" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gazebo_grasp_plugin_ros/grasp_event_republisher")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gazebo_grasp_plugin_ros/grasp_event_republisher"
-         OLD_RPATH "/opt/ros/melodic/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/jamesmalave/Downloads/catkin_ws/devel/lib:"
+         OLD_RPATH "/opt/ros/melodic/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/jamesmalave/ABB4600/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gazebo_grasp_plugin_ros/grasp_event_republisher")

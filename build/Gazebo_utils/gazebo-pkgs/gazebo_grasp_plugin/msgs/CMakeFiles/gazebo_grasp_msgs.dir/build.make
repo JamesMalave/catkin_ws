@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jamesmalave/Downloads/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/jamesmalave/ABB4600/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jamesmalave/Downloads/catkin_ws/build
+CMAKE_BINARY_DIR = /home/jamesmalave/ABB4600/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/depend.make
@@ -57,26 +57,26 @@ include Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_gras
 # Include the compile flags for this target's objects.
 include Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/flags.make
 
-Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc: /home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.proto
+Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc: /home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.proto
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jamesmalave/Downloads/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on grasp_event.proto"
-	cd /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && /usr/bin/protoc --cpp_out=/home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs -I /home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs /home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jamesmalave/ABB4600/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on grasp_event.proto"
+	cd /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && /usr/bin/protoc --cpp_out=/home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs -I /home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs /home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.proto
 
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.h: Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.h
 
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.o: Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/flags.make
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.o: Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesmalave/Downloads/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.o"
-	cd /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.o -c /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jamesmalave/ABB4600/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.o"
+	cd /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.o -c /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc
 
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.i"
-	cd /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc > CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.i
+	cd /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc > CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.i
 
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.s"
-	cd /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc -o CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.s
+	cd /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc -o CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.s
 
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.o.requires:
 
@@ -96,15 +96,15 @@ gazebo_grasp_msgs_OBJECTS = \
 # External object files for target gazebo_grasp_msgs
 gazebo_grasp_msgs_EXTERNAL_OBJECTS =
 
-/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_grasp_msgs.so: Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.o
-/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_grasp_msgs.so: Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/build.make
-/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_grasp_msgs.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_grasp_msgs.so: Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jamesmalave/Downloads/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_grasp_msgs.so"
-	cd /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_grasp_msgs.dir/link.txt --verbose=$(VERBOSE)
+/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_grasp_msgs.so: Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.o
+/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_grasp_msgs.so: Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/build.make
+/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_grasp_msgs.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_grasp_msgs.so: Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jamesmalave/ABB4600/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_grasp_msgs.so"
+	cd /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_grasp_msgs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/build: /home/jamesmalave/Downloads/catkin_ws/devel/lib/libgazebo_grasp_msgs.so
+Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/build: /home/jamesmalave/ABB4600/catkin_ws/devel/lib/libgazebo_grasp_msgs.so
 
 .PHONY : Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/build
 
@@ -113,11 +113,11 @@ Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.d
 .PHONY : Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/requires
 
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/clean:
-	cd /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_grasp_msgs.dir/cmake_clean.cmake
+	cd /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_grasp_msgs.dir/cmake_clean.cmake
 .PHONY : Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/clean
 
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/depend: Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.cc
 Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/depend: Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/grasp_event.pb.h
-	cd /home/jamesmalave/Downloads/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jamesmalave/Downloads/catkin_ws/src /home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs /home/jamesmalave/Downloads/catkin_ws/build /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs /home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jamesmalave/ABB4600/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jamesmalave/ABB4600/catkin_ws/src /home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs /home/jamesmalave/ABB4600/catkin_ws/build /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs /home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/msgs/CMakeFiles/gazebo_grasp_msgs.dir/depend
 

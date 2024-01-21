@@ -1,8 +1,8 @@
-# Install script for directory: /home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller
+# Install script for directory: /home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/Downloads/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jamesmalave/ABB4600/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,22 +38,22 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/ros_controllers/imu_sensor_controller/catkin_generated/installspace/imu_sensor_controller.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/ros_controllers/imu_sensor_controller/catkin_generated/installspace/imu_sensor_controller.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_sensor_controller/cmake" TYPE FILE FILES
-    "/home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/ros_controllers/imu_sensor_controller/catkin_generated/installspace/imu_sensor_controllerConfig.cmake"
-    "/home/jamesmalave/Downloads/catkin_ws/build/Gazebo_utils/ros_controllers/imu_sensor_controller/catkin_generated/installspace/imu_sensor_controllerConfig-version.cmake"
+    "/home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/ros_controllers/imu_sensor_controller/catkin_generated/installspace/imu_sensor_controllerConfig.cmake"
+    "/home/jamesmalave/ABB4600/catkin_ws/build/Gazebo_utils/ros_controllers/imu_sensor_controller/catkin_generated/installspace/imu_sensor_controllerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_sensor_controller" TYPE FILE FILES "/home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_sensor_controller" TYPE FILE FILES "/home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/imu_sensor_controller" TYPE DIRECTORY FILES "/home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/include/imu_sensor_controller/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/imu_sensor_controller" TYPE DIRECTORY FILES "/home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/include/imu_sensor_controller/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libimu_sensor_controller.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jamesmalave/Downloads/catkin_ws/devel/lib/libimu_sensor_controller.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jamesmalave/ABB4600/catkin_ws/devel/lib/libimu_sensor_controller.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libimu_sensor_controller.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libimu_sensor_controller.so")
     file(RPATH_CHANGE
@@ -78,9 +78,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_sensor_controller" TYPE FILE FILES
-    "/home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/imu_sensor_plugin.xml"
-    "/home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/imu_sensor_controller.yaml"
-    "/home/jamesmalave/Downloads/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/imu_sensor_controller.launch"
+    "/home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/imu_sensor_plugin.xml"
+    "/home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/imu_sensor_controller.yaml"
+    "/home/jamesmalave/ABB4600/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/imu_sensor_controller.launch"
     )
 endif()
 

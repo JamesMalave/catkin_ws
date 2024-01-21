@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "controller_interface;geometry_msgs;hardware_interface;pluginlib;realtime_tools;roscpp".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lforce_torque_sensor_controller".split(';') if "-lforce_torque_sensor_controller" != "" else []
 PROJECT_NAME = "force_torque_sensor_controller"
-PROJECT_SPACE_DIR = "/home/jamesmalave/Downloads/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/jamesmalave/ABB4600/catkin_ws/install"
 PROJECT_VERSION = "0.17.2"
