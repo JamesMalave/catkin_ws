@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<robot name="abb_gripper" xmlns:xacro="http://ros.org/wiki/xacro">
+
+    
+  <xacro:include filename="$(find abb_description)/urdf/irb4600_40_255.xacro"/>
+  
+  <xacro:include filename="$(find abb_gazebo)/urdf/transmission_2f.xacro"/>
+  
+</robot>

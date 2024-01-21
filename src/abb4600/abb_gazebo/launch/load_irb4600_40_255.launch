@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Define arguments for gripper_2f and camera_arm -->
+  <arg name="gripper_2f" default="false" />
+  <arg name="camera_arm" default="false" />
+
+  <!-- Load robot description using xacro -->
+  <param name="robot_description" command="$(find xacro)/xacro '$(find abb_gazebo)/urdf/abb_main.xacro' gripper_2f:=$(arg gripper_2f) camera_arm:=$(arg camera_arm)" />
+
+</launch>
+

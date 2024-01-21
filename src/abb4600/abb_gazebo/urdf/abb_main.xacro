@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<robot name="abb_main" xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:arg name="camera_arm" default="false"/>
+    <xacro:arg name="gripper_2f" default="false"/>
+
+    <xacro:include filename="$(find abb_gazebo)/urdf/gazebo.xacro"/>
+
+    <!-- Include gripper if gripper_2f argument is true -->
+    <xacro:if value="$(arg gripper_2f)">
+        <xacro:include filename="$(find abb_gazebo)/urdf/gazebo_2f.xacro"/>
+    </xacro:if>
+
+    <!-- Include camera arm if camera_arm argument is true -->
+    <xacro:if value="$(arg camera_arm)">
+        <xacro:include filename="$(find abb_gazebo)/urdf/camera_arm.xacro"/>
+    </xacro:if>
+
+</robot>
+
